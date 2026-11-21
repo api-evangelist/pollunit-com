@@ -1,4 +1,4 @@
-# pollunit-com
+# Pollunit
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,134 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-pollunit-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://pollunit.com/
+Pollunit provides an online poll maker platform that enables users to create, distribute, and analyze polls, surveys, contests, and voting events. The service offers features such as AI‑assisted poll creation, customizable templates, real‑time results, and integrations for gathering feedback, ideas, and decisions across various use‑cases. It supports free polls without registration and offers paid plans for advanced functionality and branding.
+
+**Areas:** Polling · Surveys · OnlineVoting · SaaS · Community
+
+## Pollunit on APIs.io
+
+Everything profiled for Pollunit is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/pollunit-com/](https://apis.io/providers/pollunit-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [Pollunit Options API](https://apis.io/apis/pollunit-com/pollunit-com-options-api/) — The Options API from Pollunit — 2 operation(s) for options.
+- [Pollunit Polls API](https://apis.io/apis/pollunit-com/pollunit-com-polls-api/) — The Polls API from Pollunit — 2 operation(s) for polls.
+- [Pollunit Voters API](https://apis.io/apis/pollunit-com/pollunit-com-voters-api/) — The Voters API from Pollunit — 2 operation(s) for voters.
+- [Pollunit Votes API](https://apis.io/apis/pollunit-com/pollunit-com-votes-api/) — The Votes API from Pollunit — 2 operation(s) for votes.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Pollunit Agentic Access](https://apis.io/agentic-access/pollunit-com/pollunit-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Option](https://apis.io/schemas/pollunit-com/pollunit-com-option/)
+- [OptionListItem](https://apis.io/schemas/pollunit-com/pollunit-com-option-list-item/)
+- [Poll](https://apis.io/schemas/pollunit-com/pollunit-com-poll/)
+- [Vote](https://apis.io/schemas/pollunit-com/pollunit-com-vote/)
+- [Voter](https://apis.io/schemas/pollunit-com/pollunit-com-voter/)
+- [VoterUpdateRequest](https://apis.io/schemas/pollunit-com/pollunit-com-voter-update-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Pollunit Com Context](https://apis.io/jsonld/pollunit-com/pollunit-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Pollunit API Rules](https://apis.io/rules/pollunit-com/pollunit-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Pollunit Authentication](https://apis.io/security/pollunit-com/pollunit-com-authentication/)
+- [Pollunit Domain Security](https://apis.io/security/pollunit-com/pollunit-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Pollunit Plans Pricing](https://apis.io/plans/pollunit-com/pollunit-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://pollunit.com/)
+- [Documentation](https://api.pollunit.com/llms.txt)
+- [Getting started](https://pollunit.com/en)
+- [API reference](https://api.pollunit.com)
+- [Support](https://pollunit.com/en/support)
+- [Changelog](https://pollunit.com/en/changelog)
+- [Blog](https://pollunit.com/en/posts)
+- [Terms of service](https://pollunit.com/terms)
+- [Privacy policy](https://pollunit.com/privacy)
+- [GitHub](https://github.com/PollUnit)
+
+## API Evangelist rating
+
+**Kin Score 51.0** — developing · rubric 0.28.0 · scored 2026-11-21
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 57.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 19.0 |
+| Developer ergonomics | 47.6 |
+| Access clarity | 40.0 |
+
+**Agent readiness 54.8** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/pollunit-com/](https://apis.io/providers/pollunit-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Pollunit: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/pollunit-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
